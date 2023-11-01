@@ -1,0 +1,78 @@
+.AboutUsContainer {
+    margin-top: 111px;
+    padding-top: 20px;
+}
+
+.AboutUsContainerMain {
+    flex-direction: column;
+    width: 100%;
+}
+
+.AboutUsHeading {
+    text-align: center;
+
+}
+
+.summaryAboutUs {
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.2);
+    width: 100%;
+    padding: 20px 35px;
+    margin-block: 40px;
+    /* background-color: #ffffff; */
+    text-align: center;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.getInTouchContainer {
+
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.2);
+    width: 100%;
+    padding: 20px 35px;
+    margin-block: 40px;
+    /* background-color: #ffffff; */
+    text-align: center;
+    gap: 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.getInTouchContainerAddress,
+.getInTouchContainerContact,
+.getInTouchContainerEmail {
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.qwer {
+    color: #CC5500;
+}
+
+.AboutUsContainerSocial {
+    width: 100%;
+    justify-content: center;
+    gap: 50px;
+}
+
+.AboutUsContainerSocial a {
+    color: #CC5500;
+}
+
+.AboutUsContainerWhatWeOffer {
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.2);
+    padding: 20px 35px;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+.djfhdksf {
+    width: 100%;
+}

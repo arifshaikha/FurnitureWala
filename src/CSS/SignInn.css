@@ -1,0 +1,80 @@
+.signInContainer {
+    margin-top: 111px;
+    /* background-color: rgb(248, 217, 217); */
+    /* height: 85vh; */
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.signInContainerMain {
+    width: 50%;
+    background-color: rgb(219, 43, 43);
+    justify-content: center;
+}
+
+.leftsignInContainerMain {
+    width: 30%;
+    background-color: #CC5500;
+    color: #ffffff;
+    padding: 30px;
+
+
+}
+
+.formComtainer {
+    width: 70%;
+    padding: 30px 50px;
+    background-color: white;
+    gap: 25px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formComtainer input {
+    
+    border: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.678);
+    /* background-color: rgb(236, 236, 236);     */
+    padding-left: 10px;
+    /* border-radius: 8px; */
+    height: 40px;
+    width: 100%;
+    color: rgb(75, 75, 75);
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+.formComtainer input:focus {
+    outline: 0;
+    border-bottom: 1px solid #CC5500;
+}
+.formComtainer button {
+    width: 30%;
+}
+
+.formComtainer p {
+    color: #CC5500;
+}
+
+.formComtainer p span {
+    cursor: pointer;
+    font-weight: 800;
+    position: relative;
+    padding-bottom: 2px;
+}
+.formComtainer p span::after{
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #CC5500;
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+}
+.formComtainer p span:hover::after{
+    width: 100%;
+}
+

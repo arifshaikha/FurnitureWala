@@ -1,0 +1,11 @@
+.jhj{
+    /* background-color: red; */
+    flex-direction: column;
+    width: 100%;
+    background-color: #f1f3f6;
+    gap: 3px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}

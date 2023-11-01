@@ -1,0 +1,127 @@
+.footerConatiner{
+    padding-top: 30px;
+    padding-bottom: 12px;
+    color: #dbdbdb;
+    /* color: gray; */
+    /* color: #CC5500; */
+    background-color: rgb(19, 26, 34);
+    /* background-color: rgb(35, 47, 62); */
+    font-family: 'Montserrat', sans-serif ;
+}
+.upperFooter{
+
+    justify-content: space-around;
+
+}
+.upperFirst{
+    justify-content: center;
+    align-items: center;
+}
+.upperSecond{
+    flex-direction: column;
+    line-height: 2;
+    align-items: center;
+    justify-content: center;
+}
+.upperSecond p{
+    cursor: pointer;
+}
+.upperSecond{
+    font-size: 0.5rem;
+}
+.upperThird{
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    line-height: 1.5;
+    justify-content: center;
+}
+.upperThird li{
+    cursor: pointer;
+}
+
+.upperThird li{
+    list-style-type: none;
+    color: #dbdbdb93;
+    /* color: #cc5500b4; */
+    font-size: 0.9rem;
+}
+
+
+.lowerFooter{
+    margin-top: 30px;
+    justify-content: space-around;
+   
+}
+.lowerFooterRight {
+   
+    gap: 15px;
+    
+}
+.lowerFooterRight a{
+    font-size: 0.8rem ;
+    color: #dbdbdbda;
+    color: #CC5500;
+    text-decoration: none;
+    
+}
+
+
+
+
+#Whatsapp {
+
+    transition: all 0.2s ease-in-out;
+}
+
+#fb {
+    transition: all 0.2s ease-in-out;
+}
+
+#insta {
+
+    transition: all 0.2s ease-in-out;
+}
+
+#mobile {
+
+    transition: all 0.2s ease-in-out;
+}
+
+#Gmail {
+
+    transition: all 0.2s ease-in-out;
+
+}
+
+#youtube {
+
+    transition: all 0.2s ease-in-out;
+
+}
+
+#Whatsapp:hover {
+    color: #25D366;
+}
+
+#fb:hover {
+    color: #4267B2
+}
+
+#insta:hover {
+    color: #C13584;
+}
+
+#mobile:hover {
+    color: #e5c300;
+}
+
+#Gmail:hover {
+    color: #f2a60c;
+
+}
+
+#youtube:hover {
+    color: #FF0000;
+
+}

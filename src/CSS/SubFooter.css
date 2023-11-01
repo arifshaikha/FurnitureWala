@@ -1,0 +1,12 @@
+.mainSubFooterContainer{
+    background-color: rgb(10, 13, 17);
+    padding-block: 8px;
+}
+.SubFooterContainer{
+    justify-content: center;
+    align-items: center;
+}
+
+.SubFooterContainer a{
+    color: #CC5500;
+}

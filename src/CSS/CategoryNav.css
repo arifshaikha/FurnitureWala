@@ -1,0 +1,81 @@
+
+.subNav{
+   box-shadow: -10px 0px 5px rgba(128, 128, 128, 0.473);
+    background-color: rgb(255, 255, 255);
+    
+}
+.sabNavContainer{
+    justify-content: space-around;
+    padding-block: 5px;
+}
+
+.cate{
+    padding: 8px 25px;
+    border-radius: 20px;
+    color: #CC5500;
+    background-color: #ffffff;
+    border:1px solid #CC5500;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+.cate:hover{
+ 
+    border-radius: 20px;
+    color: #ffffff ;
+    background-color: #CC5500;
+    border:1px solid #CC5500;
+   
+
+}
+.arrow{
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.chairDiv,.tableDiv,.bedDiv{
+    position: relative;
+}
+ul{
+    /* margin-top: 50px; */
+    list-style-type: none;
+    color: #9c4303;
+    background-color: rgb(255, 255, 255);
+    padding-inline: 40px ;
+    position: absolute;
+    top:40px;
+    left: 0;
+    height: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* gap: ; */
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 99;
+    transition: all 0.5s ease-in-out;
+}
+
+
+ul li{
+    width: max-content;
+    transition: all 0.5s ease-in-out;
+    position: relative;
+}
+
+ul li::after{
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0%;
+    background-color: #9c4303;
+    transition: all 0.5s ease-in-out;
+
+}
+ul li:hover::after{
+    width: 100%;
+}
+

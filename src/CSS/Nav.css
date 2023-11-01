@@ -1,0 +1,83 @@
+.tahi{
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+    min-width: 100%;
+    /* position: fixed; */
+    /* z-index: 100; */
+    padding-block: 10px;
+    
+    
+    /* top: 0;
+    left: 0; */
+    box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.336);
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+  
+
+}
+
+.searchContainer {
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
+}
+.searchContainer input {
+    min-width: 80%;
+    height: 40px;
+    padding-left: 20px;
+    /* background-color: #f7f7f7a2 ; */
+    border: none;
+    background-color: transparent ;
+    box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.418) ;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.searchContainer input:focus{
+    outline: 0;
+}
+.rightContainer{
+    gap: 20px;
+    align-items: center;
+}
+
+.searchIcon{
+    /* padding: 5px 10px; */
+    /* margin-left: 10px; */
+    height: 40px;
+    min-width: 50px;
+    max-width: 50px;
+    border: none;
+    background-color:#CC5500;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+    box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.418) ;
+    transition: all 0.2s ease-in-out ;
+    
+}
+.searchIcon:hover{
+    background-color:#ff6a00;
+    cursor: pointer;
+}
+.searchIcon:active{
+    background-color:#ff6a009c;
+    cursor: pointer;
+}
+.cart{
+    color:#CC5500;
+}
+
+.loginNhihai{
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.loginHai{
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
