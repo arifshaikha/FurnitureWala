@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const NavMenu = () => {
 
-  let [a, setA] = useState(true);
+  let [a, setA] = useState(false);
 
 
 
@@ -35,7 +35,7 @@ const NavMenu = () => {
               </div>
               :
               <div className="loginHai flex">
-                <i class="fa-solid fa-cart-shopping cart" ></i>
+                <Link to='/mycart'><i class="fa-solid fa-cart-shopping cart" ></i></Link>
                 <button className="primarybtn">My Orders</button>
                 <button className="secondarybtn" onClick={()=>{setA(!a)}}>Sign Out</button>
               </div>

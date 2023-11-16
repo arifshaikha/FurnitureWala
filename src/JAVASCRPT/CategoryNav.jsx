@@ -6,6 +6,7 @@ import { categoryContext } from './Main';
 
 const CategoryNav = (props) => {
 
+    //  Functions for DropDown
     function Open(list, id) {
         document.getElementById(list).style.height = "150px";
         document.getElementById(id).style.rotate = '180deg';
@@ -17,18 +18,9 @@ const CategoryNav = (props) => {
 
     }
 
-    let [category, setCategory] = useState('');
-    const handleCategory = (input) => { 
-        setCategory(input);
-        localStorage.setItem("category", JSON.stringify(input));
-        
-    }
-
     const cateContext=useContext(categoryContext);
 
-    useEffect(()=>{
-        
-    },[cateContext.category])
+    
     
     return (
         <div className='subNav'>
@@ -45,10 +37,10 @@ const CategoryNav = (props) => {
                     <ul id='chairList' onMouseEnter={() => Open('chairList', 'chairId')}
                         onMouseLeave={() => Close('chairList', 'chairId')}
                         onClick={() => Close('chairList', 'chairId')}>
-                        <Link to='/procardcontainer'><li onClick={()=>cateContext.getCategory('Stool')}>Stool</li></Link>
-                        <Link to='/procardcontainer'><li onClick={()=>cateContext.getCategory('Arm Chair')}>Arm Chair</li></Link>
-                        <Link to='/procardcontainer'><li onClick={()=>cateContext.getCategory('Dinning Chair')}>Dinning Chair</li></Link>
-                        <Link to='/procardcontainer'><li onClick={()=>cateContext.getCategory('chair')}>Chairs</li></Link>
+                        <Link to='/procardcontainer'><li onClick={()=>cateContext.getCategory(null,'Stool')}>Stool</li></Link>
+                        <Link to='/procardcontainer'><li onClick={()=>cateContext.getCategory(null,'Arm Chair')}>Arm Chair</li></Link>
+                        <Link to='/procardcontainer'><li onClick={()=>cateContext.getCategory(null,'Dinning Chair')}>Dinning Chair</li></Link>
+                        <Link to='/procardcontainer'><li onClick={()=>cateContext.getCategory('chair',null)}>Chairs</li></Link>
                     </ul>
                 </div>
                 <div className='tableDiv' >
@@ -61,11 +53,11 @@ const CategoryNav = (props) => {
                     <ul id='tableList' onMouseEnter={() => Open('tableList', 'tableId')}
                         onMouseLeave={() => Close('tableList', 'tableId')}
                         onClick={() => Close('tableList', 'tableId')}>
-                        <Link to='/procardcontainer'><li onClick={()=>cateContext.getCategory('FoldingTable')}>Folding Table</li></Link>
-                        <Link to='/procardcontainer'><li onClick={()=>cateContext.getCategory('table ')}>Tables</li></Link>
+                        <Link to='/procardcontainer'><li onClick={()=>cateContext.getCategory(null,'FoldingTable')}>Folding Table</li></Link>
+                        <Link to='/procardcontainer'><li onClick={()=>cateContext.getCategory('table ',null)}>Tables</li></Link>
                     </ul>
                 </div>
-                <div onClick={()=>cateContext.getCategory('wordrobe')}>
+                <div onClick={()=>cateContext.getCategory('wordrobe',null)}>
                     <Link to='/procardcontainer'><button className="cate">Wardrobe</button></Link>
                 </div>
                 <div className='bedDiv' >
@@ -78,14 +70,14 @@ const CategoryNav = (props) => {
                     <ul id='bedList' onMouseEnter={() => Open('bedList', 'bedId')}
                         onMouseLeave={() => Close('bedList', 'bedId')}
                         onClick={() => Close('bedList', 'bedId')}>
-                        <Link to='/procardcontainer'><li onClick={()=>cateContext.getCategory('SofaBed')}>Sofa Bed</li></Link>
-                        <Link to='/procardcontainer'><li onClick={()=>cateContext.getCategory('bed ')}>Beds</li></Link>
+                        <Link to='/procardcontainer'><li onClick={()=>cateContext.getCategory(null, 'SofaBed')}>Sofa Bed</li></Link>
+                        <Link to='/procardcontainer'><li onClick={()=>cateContext.getCategory('bed ',null)}>Beds</li></Link>
                     </ul>
                 </div>
-                <div onClick={()=>cateContext.getCategory('desk')}>
+                <div onClick={()=>cateContext.getCategory('desk',null)}>
                     <Link to='/procardcontainer'> <button className="cate">Desk</button></Link>
                 </div>
-                <div onClick={()=>cateContext.getCategory('bookcase')}>
+                <div onClick={()=>cateContext.getCategory('bookcase',null)}>
                     <Link to='/procardcontainer'> <button className="cate">Bookcase</button></Link>
                 </div>
             </div>

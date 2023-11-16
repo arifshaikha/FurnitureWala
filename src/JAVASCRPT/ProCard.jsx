@@ -10,7 +10,7 @@ const ProCard = (props) => {
 
     const singleProduct=useContext(singleProductfromProCardContainerContext);
 
-    console.log("kjfsdjf",singleProduct.singleProduct);
+    // console.log("kjfsdjf",singleProduct.singleProduct);
 
     return (
 
@@ -22,7 +22,7 @@ const ProCard = (props) => {
                 </div>
                 <div className="secondProCardContainer flex">
                     <div className="secondProCardContainerTitle">
-                        <h2>{props.data.title} </h2>
+                        <h2>{props.data.title}</h2>
                     </div>
                     <div className="secondProCardContainerDescription">
                         <p>{props.data.description}</p>

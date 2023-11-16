@@ -1,0 +1,53 @@
+.MyCartCardContainer{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    margin-block: 0.5px;
+    align-items: center;
+    justify-content: space-around;
+    padding-block: 10px;
+}
+
+.MyCartCardContainerleft{
+    height: 100%;
+    width: 35%;
+    /* background-color: rgb(102, 255, 0); */
+    justify-content: center;
+    align-items: center;
+}
+.MyCartCardContainerleft img{
+    height: 100%;
+}
+.MyCartCardContainermiddle{
+    height: 100%;
+    width: 25%;
+    /* background-color: rgb(76, 0, 255); */
+    flex-direction: column;
+    justify-content: start;
+    gap: 7px;
+    align-items: start;
+    overflow: hidden;
+    
+}
+.MyCartCardContainermiddleTitle{
+    
+    overflow: hidden;
+    height: 40%;
+}
+
+.removefromcartbtn{
+    border: none ;
+    padding: 8px 10px;
+    background-color: #CC5500;
+    color: #ffffff;
+    border-radius: 15px ;
+    border-radius: 50% ;
+    cursor: pointer;
+}
+
+
+.MyCartCardContainerright{
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}

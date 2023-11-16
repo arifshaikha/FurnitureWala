@@ -1,0 +1,22 @@
+.MyCartTotalContainer {
+    width: 60%;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #ffffff;
+    padding: 20px 30px;
+}
+
+.MyCartTotalContainerPriceDetail {
+    border-bottom: 1px solid gray;
+}
+
+.MyCartTotalContainerMiddle1,
+.MyCartTotalContainerTotalAmount1 {
+    justify-content: space-between;
+}
+
+
+.MyCartTotalContainerMiddle {
+    border-bottom: 1px solid gray;
+
+}

@@ -1,5 +1,6 @@
 .SingleProMainContainer{
     margin-top: 118px;
+    margin-bottom: 15px;
     /* max-height: 500px; */
     /* height: 500px; */
     width: 100%;
@@ -10,7 +11,7 @@
     background-color: #ffffff;
     height: 100%;
     width: 100%;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
     
    
@@ -34,9 +35,43 @@
     width: 48%;
     flex-direction: column;
     gap: 30px;
+    padding-top: 25px ;
 
     
 }
 .addToCart{
     width: 25%;
+}
+
+
+.ProductTitleAndPriceTitle{
+    color: #000000;
+}
+
+.ProductTitleAndPriceNewPrice{
+
+    color:rgb(46, 46, 46);
+    
+}
+
+.ProductTitleAndPriceOldPrice{
+    color: rgba(255, 0, 0, 0.7);
+    font-size: 1rem;
+    margin-left: 20px;
+
+}
+
+
+.ProductSpecs{
+    color: #000000;
+}
+.ProductSpecs p{
+    color: rgb(85, 85, 85);
+}
+
+.ProductDesc{
+    color: #000000;
+}
+.ProductDesc p{
+    color: rgb(85, 85, 85);
 }
